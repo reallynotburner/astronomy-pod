@@ -10,9 +10,6 @@ firebase-debug.*.log*
 # Firebase cache
 .firebase/
 
-# Firebase config
-firebase-examples.js
-
 # Uncomment this if you'd like others to create their own Firebase project.
 # For a team working on the same Firebase project(s), it is recommended to leave
 # it commented so all members can deploy to the same project(s) in .firebaserc.
@@ -67,7 +64,7 @@ node_modules/
 .env
 
 # don't track images, PLEASE
-public/img/
+public/img/*
 
 # MacOS developers understand...
 .DS_Store
